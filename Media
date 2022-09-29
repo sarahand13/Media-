@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Antonio Carlos Nicolodi 
+// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/09/2022
+Var
+// Se��o de Declara��es das vari�veis 
+n1, n2, n3, n4: real
+media: real
+Inicio
+// Se��o de Comandos, procedimento, fun��es, operadores, etc...
+escreval ("digite a nota do primeiro bimestre")
+leia (n1)
+escreval ("digite a nota do segundo bimestre")
+leia (n2)
+escreval ("digite a nota do terceiro bimestre")
+leia (n3)
+escreval ("digite a nota do quarto bimestre")
+leia (n4)
+media <- ((n1 + n2 + n3+ n4)/4)
+se (media>= 5) E (media=9) entao
+escreval ("aluno aprovado com ", media, " de media")
+senao
+escreval ("aluno reprovado com ", media, " de media")
+fimse
+se (media = 10)entao
+escreval ("aluno aprovado com ", media, "de media. PARAB�NS")
+fimse
+
+
+Fimalgoritmo
